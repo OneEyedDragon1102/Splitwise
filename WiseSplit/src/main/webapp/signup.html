@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp</title>
+</head>
+<body class="p-10">
+
+    <div class="container flex justify-between  border-black border-[1px]">
+        <div class="left-cont">
+            <h1>Splitwise</h1>
+            <p>The solution for spliting among simplified</p>
+        </div>
+        <div class="form">
+            <form action="register" method = "post">
+                <label for="">Enter Name:</label>
+                <br>
+                <input type="text" name = "name" class="border-black border-[1px] rounded-sm">
+                <br>
+                <label for="">Enter Email:</label>
+                <br>
+                <input type="email" name="email" class="border-black border-[1px] rounded-sm">
+                <br>
+                <label for="">Password:</label>
+                <br>
+                <input type="password" name = "password" class="border-black border-[1px] rounded-sm">
+                <br>
+                <label for="">Phone Number:</label>
+                <br>
+                <input type="text" name = "contact" class="border-black border-[1px] rounded-sm">
+                <br>
+                <button onclick="popClick()" class="sign-up mt-2 py-2 px-3 bg-blue-400 text-white rounded-md">Sign up</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

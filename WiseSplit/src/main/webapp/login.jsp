@@ -25,7 +25,7 @@
 						<figure>
 							<img src="images/signin-image.jpg" alt="sing up image">
 						</figure>
-						<a href="registration.jsp" class="signup-image-link">Create an
+						<a href="signup.html" class="signup-image-link">Create an
 							account</a>
 					</div>
 
