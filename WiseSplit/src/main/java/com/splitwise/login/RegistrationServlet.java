@@ -7,12 +7,13 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class RegistrationServlet extends HttpServlet {
-	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException{
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException{
 		String nameString = request.getParameter("name");
 		String emailString = request.getParameter("email");
 		String passwordString = request.getParameter("password");
