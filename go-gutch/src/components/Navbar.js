@@ -6,6 +6,7 @@ export const Navbar = () => {
                 <li className="p-2 font-semibold">Home</li>
                 <li><button className="p-2 font-semibold rounded-md hover:bg-blue-400">Sign Up</button></li>
                 <li><button className="p-2 font-semibold rounded-sm hover:bg-green-400">Log In</button></li>
+                <li><button className="dark:text-black p-2 font-semibold">Mode</button></li>
             </ul>
         </div>
     )
