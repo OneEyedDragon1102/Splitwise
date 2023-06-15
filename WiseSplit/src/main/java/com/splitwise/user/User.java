@@ -1,7 +1,5 @@
 package com.splitwise.user;
 
-import org.ietf.jgss.Oid;
-
 public class User {
 	private int id;
 	private String name;
