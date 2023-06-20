@@ -1,9 +1,7 @@
-// import Image from 'next/image'
-// import link from 'next/Link'
 import {Navbar} from '../components/Navbar'
 import { Hero } from '@/components/Hero'
-// import { Footer } from '@/components/Footer'
-// import {SignUp} from './components/SignUp'
+import { Footer } from '@/components/Footer'
+// import {SignUp} from '@/components/Signup'
 // import {useState} from 'react'
 
 export default function Home() {
@@ -12,7 +10,7 @@ export default function Home() {
     <div className='bg-white md:h-screen xs:h-full text-black'>
       <Navbar className=""/>
       <Hero />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
