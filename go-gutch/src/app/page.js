@@ -7,7 +7,7 @@ import { Footer } from '@/components/Footer'
 export default function Home() {
   // const [darkMode, useDarkMode] = useState(false);
   return (
-    <div className='bg-white md:h-screen xs:h-full text-black'>
+    <div className='bg-white text-black'>
       <Navbar className=""/>
       <Hero />
       <Footer />
