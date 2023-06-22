@@ -4,6 +4,10 @@ export const SignUp = () => {
     return (
         <div className="form">
             <h1>Sign Up</h1>
+            <h1>Sign Up</h1>
+            <h1>Sign Up</h1>
+            <h1>Sign Up</h1>
+            <h1>Sign Up</h1>
         </div>
     )
 }
