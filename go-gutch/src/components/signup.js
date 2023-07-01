@@ -1,13 +1,9 @@
-import {Link} from 'next/link'
+import React from 'react'
 
 export const SignUp = () => {
-    return (
-        <div className="form">
-            <h1>Sign Up</h1>
-            <h1>Sign Up</h1>
-            <h1>Sign Up</h1>
-            <h1>Sign Up</h1>
-            <h1>Sign Up</h1>
-        </div>
-    )
+  return (
+    <div className='p-10'>
+        <p className='text-center text-xl font-semibold'>Sign up page under construction 🚧</p>
+    </div>
+  )
 }

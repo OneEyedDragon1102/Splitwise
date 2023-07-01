@@ -1,24 +1,30 @@
-import Link from 'next/link';   
+import React from 'react'
+import {Link } from 'react-router-dom'
 
 export const Navbar = () => {
-    return(
-        <div className="navbar px-10 py-5 flex justify-around items-center">
-            <h1 className="mr-auto font-semibold text-4xl xs:text-3xl">Go Gutch</h1>
-            <ul className="md:inline-flex gap-5 font-normal md:visible hidden">
-                <li className="p-2">Home</li>
-                <li>
-                        <Link href="/signup">
-                    <button className="p-2 border rounded-md">
-                            Sign Up
+  return (
+    <div className='p-5 flex justify-between items-center border-b'>
+        <h1 className='text-2xl font-semibold'>
+            <Link to="/">
+            Go Gutch
+            </Link>
+        </h1>
+        <ul className='flex gap-5 font-medium'>
+            <li>
+                <Link to='/login'>
+                    <button className='p-2 border rounded-md'>
+                        Login
                     </button>
-                        </Link>      
-                </li>
-                <li>
-                    <button className="p-2 border rounded-md">
-                            Log In
+                </Link>
+            </li>
+            <li>
+                <Link to='/signup'>
+                    <button className='p-2 border rounded-md'>
+                        Sign In
                     </button>
-                    </li>
-            </ul>
-        </div>
-    )
+                </Link>
+            </li>
+        </ul>
+    </div>
+  )
 }
