@@ -1,8 +1,8 @@
 import { Navbar } from "./components/Navbar"
 import { Routes, Route } from 'react-router-dom'
 import { Home } from "./pages/home";
-import { LogIn } from "./components/login";
-import { SignUp } from "./components/signup";
+import { LogIn } from "./components/Login.jsgit";
+import { SignUp } from "./components/Signup";
 
 function App() {
   return (
