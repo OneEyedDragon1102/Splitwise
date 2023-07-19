@@ -16,7 +16,7 @@ export const Home = () => {
             <span className='font-bold'> go-gutch</span>.
         </p>
       </div>
-      <div className='mt-10 md:w-1/2'>
+      <div className='mt-10 md:w-1/2 md:px-40'>
         <img src={Card1} alt='card-1' className='border rounded-md' />
         <img src={Graph} alt='graph' className='border rounded-md relative md:left-16 left-5 bottom-4'/>
         <img src={Card2} alt='card-2' className='border rounded-md relative bottom-10'/>
