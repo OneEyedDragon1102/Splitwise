@@ -20,7 +20,7 @@ export const Navbar = () => {
             <li>
                 <Link to='/signup'>
                     <button className='p-2 border rounded-md'>
-                        Sign In
+                        Sign Up
                     </button>
                 </Link>
             </li>
